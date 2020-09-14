@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <title></title>
+  </head>
+  <body>
+    <h3>principal</h3>
+    <div id="app">
+      <a href="employ"><button>Ingresar Empleado</button></a>
+      <br>
+        <input type="text" name="" id="employ-id">
+        <button onclick="getEmploy()">Obtener Empleado</button>
+
+      <br>
+
+        <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>ContractType</th>
+            <th>RoleId</th>
+            <th>RoleName</th>
+            <th>RoleDesc</th>
+            <th>HourSalary</th>
+            <th>MontlySalary</th>
+            <th>YearSalary</th>
+          </tr>
+        </thead>
+        <tbody id="dash">
+
+        </tbody>
+      </table>
+
+    </div>
+
+
+  </body>
+  <script src="public/js/index.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js" integrity="sha512-BKbSR+cfyxLdMAsE0naLReFSLg8/pjbgfxHh/k/kUC82Hy7r6HtR5hLhobaln2gcTvzkyyehrdREdjpsQwy2Jw==" crossorigin="anonymous"></script>
+</html>
